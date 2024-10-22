@@ -29,7 +29,7 @@ backend/fb/
 backend/instance/
 # backend/LinkedIn/
 backend/outputs/
-backend/pdf/
+# backend/pdf/
 backend/Proctoring-AI/
 backend/routes/
 
