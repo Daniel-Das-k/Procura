@@ -22,12 +22,12 @@ client/client/node_modules
 
 client/
 images/
-# backend/discord/
+#  backend/discord/
 
 backend/faiss_index/
 backend/fb/
 backend/instance/
-backend/LinkedIn/
+# backend/LinkedIn/
 backend/outputs/
 backend/pdf/
 backend/Proctoring-AI/
