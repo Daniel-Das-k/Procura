@@ -19,5 +19,8 @@ backend/sample_NrO0CJCbYLA.wav
 backend/sample.wav
 client/client/node_modules
 # ----------------------------------------------------------------
+backend/
+client/
+images/
 
 # ----------------------------------------------------------------
