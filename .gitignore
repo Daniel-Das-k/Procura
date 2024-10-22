@@ -19,8 +19,30 @@ backend/sample_NrO0CJCbYLA.wav
 backend/sample.wav
 client/client/node_modules
 # ----------------------------------------------------------------
-backend/
+
 client/
 images/
+# backend/discord/
+
+backend/faiss_index/
+backend/fb/
+backend/instance/
+backend/LinkedIn/
+backend/outputs/
+backend/pdf/
+backend/Proctoring-AI/
+backend/routes/
+
+backend/summarizer/
+backend/twitter/
+backend/uploads/
+backend/virtual_board/
+backend/youtube/
+
+backend/app.py
+backend/db.py
+backend/demo.py
+backend/image.py
+backend/subdemo.py
 
 # ----------------------------------------------------------------
