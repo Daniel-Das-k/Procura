@@ -21,7 +21,18 @@ client/client/node_modules
 # ----------------------------------------------------------------
 
 client/public
-client/src
+client/src/assets
+client/src/components
+client/src/config
+client/src/font
+client/src/context
+client/src/lib
+client/src/pages
+client/src/subpages
+client/src/ui
+client/src/App.jsx
+client/src/index.css
+client/src/main.jsx
 images/
 #  backend/discord/
 
