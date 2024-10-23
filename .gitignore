@@ -24,7 +24,6 @@ client/
 images/
 #  backend/discord/
 
-backend/fb/
 backend/instance/
 
 backend/Proctoring-AI/__pycache__
