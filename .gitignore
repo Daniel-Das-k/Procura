@@ -27,13 +27,10 @@ images/
 backend/faiss_index/
 backend/fb/
 backend/instance/
+
 backend/outputs/
 
-
 backend/routes/
-
-
-backend/uploads/
 backend/virtual_board/
 
 
