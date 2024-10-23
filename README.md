@@ -23,7 +23,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 3. **Summarization:**
 
     ![Procura Architecture](images/Summarization.png)
-    - VerbiQube automatically generates announcements and posts for Discord servers.
+    - Procura automatically generates announcements and posts for Discord servers.
     - When a YouTube video is uploaded and linked to Discord, it triggers the post creation.
     - The video is converted into a post specifically tailored for the Discord community.
 
