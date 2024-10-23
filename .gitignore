@@ -18,16 +18,3 @@ backend/sample_bfmFfD2RIcg.wav
 backend/sample_NrO0CJCbYLA.wav
 backend/sample.wav
 client/client/node_modules
-# ----------------------------------------------------------------
-
-client/src/index.css
-client/src/main.jsx
-images/
-#  backend/discord/
-
-
-backend/Proctoring-AI/__pycache__
-
-
-
-# ----------------------------------------------------------------
