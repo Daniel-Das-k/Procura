@@ -1,13 +1,13 @@
-# EduSage - AI-Powered Learning Platform
+# Procura - AI-Powered Learning Platform
 
-EduSage is a comprehensive, AI-driven educational platform designed to enhance independent learning for students. The platform leverages cutting-edge technologies like Whisper for transcription, Gemini for AI-powered question generation, Mediapipe for real-time interactive sessions, and more. EduSage empowers students to translate and interact with educational content, receive tailored feedback, and engage in virtual classrooms, all while ensuring a seamless, scalable, and secure experience.
+Procura is a comprehensive, AI-driven educational platform designed to enhance independent learning for students. The platform leverages cutting-edge technologies like Whisper for transcription, Gemini for AI-powered question generation, Mediapipe for real-time interactive sessions, and more. Procura empowers students to translate and interact with educational content, receive tailored feedback, and engage in virtual classrooms, all while ensuring a seamless, scalable, and secure experience.
 
 ## Process
 
 1. **Authorization:**
 
 
-    ![EduSage Architecture](images/Authorization.png)
+    ![Procura Architecture](images/Authorization.png)
     - Users are redirected to LinkedIn, Instagram, Facebook, and Twitter for authorization after initiating connections.
     - Upon successful authentication, access tokens, refresh tokens, and token expiry information are obtained.
     - All tokens and expiry details are securely stored in MongoDB.
@@ -15,35 +15,35 @@ EduSage is a comprehensive, AI-driven educational platform designed to enhance i
 2. **Content Generation:**
 
 
-     ![EduSage Architecture](images/Content.png)
+     ![Procura Architecture](images/Content.png)
     - Agents use CrewAI technology, supported by Llama 3 and DuckDuckGo, to generate posts.
     - Tokens are securely stored in MongoDB for authentication.
     - Posts are automated across Facebook, Instagram, Twitter, and LinkedIn.
 
 3. **Summarization:**
 
-    ![EduSage Architecture](images/Summarization.png)
+    ![Procura Architecture](images/Summarization.png)
     - VerbiQube automatically generates announcements and posts for Discord servers.
     - When a YouTube video is uploaded and linked to Discord, it triggers the post creation.
     - The video is converted into a post specifically tailored for the Discord community.
 
 4. **Posting:**
 
-    ![EduSage Architecture](images/Authorization.png)
+    ![Procura Architecture](images/Authorization.png)
     - Access tokens are used to authenticate and post content to various platforms.
     - The generated content is automatically shared using these tokens.
     - Tokens ensure secure posting to platforms like Facebook, Instagram, Twitter, and LinkedIn.
 
 4. **Youtube translation and Q&A:**
 
-    ![EduSage Architecture](images/Translation.png)
+    ![Procura Architecture](images/Translation.png)
     - YouTube audio is processed using youtube-dlp and Whisper to generate transcripts for Q&A.
     - Transcripts are transformed into embeddings and stored in a FAISS vector database for efficient retrieval.
     - FAISS retrieves relevant transcript sections for questions, and a language model (Gemini) generates accurate answers.
 
 ### Technologies Used
 
-![EduSage Architecture](images/TechStack.png)
+![Procura Architecture](images/TechStack.png)
 
 1. **Whisper** - For speech-to-text transcription of videos.
 2. **Gemini** - AI-powered question generation and content tailoring.
@@ -58,14 +58,14 @@ EduSage is a comprehensive, AI-driven educational platform designed to enhance i
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/Daniel-Das-k/EduSage.git
-   cd EduSage/backend/
+   git clone https://github.com/Daniel-Das-k/Procura.git
+   cd Procura/backend/
    ```
 
 2. **Create a Virtual Environment:**
    ```bash
-   python3 -m venv edusage
-   source edusage/bin/activate   # On Windows: `env\Scripts\activate`
+   python3 -m venv Procura
+   source Procura/bin/activate   # On Windows: `env\Scripts\activate`
    ```
 
 3. **Install Dependencies:**
