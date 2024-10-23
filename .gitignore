@@ -28,8 +28,7 @@ backend/faiss_index/
 backend/fb/
 backend/instance/
 
-backend/outputs/
-backend/virtual_board/
+
 
 
 backend/app.py
