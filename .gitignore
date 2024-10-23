@@ -20,7 +20,8 @@ backend/sample.wav
 client/client/node_modules
 # ----------------------------------------------------------------
 
-client/
+client/public
+client/src
 images/
 #  backend/discord/
 
