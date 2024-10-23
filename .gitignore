@@ -21,7 +21,7 @@ client/client/node_modules
 # ----------------------------------------------------------------
 
 
-client/src/subpages
+
 client/src/ui
 client/src/App.jsx
 client/src/index.css
