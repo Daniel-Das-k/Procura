@@ -20,10 +20,7 @@ backend/sample.wav
 client/client/node_modules
 # ----------------------------------------------------------------
 
-client/src/font
-client/src/context
-client/src/lib
-client/src/pages
+
 client/src/subpages
 client/src/ui
 client/src/App.jsx
