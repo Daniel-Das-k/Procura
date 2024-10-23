@@ -24,7 +24,6 @@ client/
 images/
 #  backend/discord/
 
-backend/faiss_index/
 backend/fb/
 backend/instance/
 
