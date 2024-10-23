@@ -19,7 +19,7 @@ backend/sample_NrO0CJCbYLA.wav
 backend/sample.wav
 client/client/node_modules
 # ----------------------------------------------------------------
-client/src/assets
+
 client/src/components
 client/src/config
 client/src/font
