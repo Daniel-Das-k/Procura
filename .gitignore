@@ -28,7 +28,7 @@ backend/faiss_index/
 backend/fb/
 backend/instance/
 
-
+backend/Proctoring-AI/__pycache__
 
 
 backend/app.py
