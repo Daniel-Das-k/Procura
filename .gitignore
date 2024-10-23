@@ -20,10 +20,6 @@ backend/sample.wav
 client/client/node_modules
 # ----------------------------------------------------------------
 
-
-
-client/src/ui
-client/src/App.jsx
 client/src/index.css
 client/src/main.jsx
 images/
