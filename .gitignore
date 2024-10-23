@@ -34,7 +34,7 @@ backend/Proctoring-AI/
 backend/routes/
 
 # backend/summarizer/
-# backend/twitter/
+
 backend/uploads/
 backend/virtual_board/
 # backend/youtube/
