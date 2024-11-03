@@ -4,7 +4,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 
 
 # Features Procura Provide
-
+![Procura Architecture](images/Features.png)
 ### Process
 
 1. **Authorization:**
@@ -31,7 +31,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 
 4. **Architecture(Content Posting and Summarization) :**
 
-    ![Procura Architecture](images/Authorization.png)
+    ![Procura Architecture](images/Architecture.png)
     - Users input files or links for content summarization by agents.
     - OAuth 2.0 securely manages authorization, safeguarding user privacy and tokens.
     - NLP processes text, enabling automated social media content generation.
