@@ -4,6 +4,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 
 
 # Features Procura Provide
+
 ![Procura Architecture](images/Features.png)
 
 ### In Depth Working 
@@ -46,6 +47,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
     - Translated text is converted to audio using Google Text-to-Speech.
    
 6. **Chat With PDF:**
+
    ![Procura Architecture](images/ChatWPDF.png)
     - User inputs a PDF and asks questions via text/audio.
     - PDF data is stored as nodes and vectors for searches.
@@ -53,6 +55,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
     - Llama 3.1 generates responses from retrieved context for user display.
 
 7. **Question Generation and Answer Evaluation:**
+
    ![Procura Architecture](images/PDFQ&A.png)
     - User uploads a PDF, specifying required question quantity and types.
     - PyPDF2 extracts PDF text, divided into chunks by LangChain splitter.
@@ -60,6 +63,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
     - Retrieved questions display on the front end for user interaction.
 
 8. **Virtual Board:**
+
    ![Procura Architecture](images/VirtualBoard.png)
     - The camera captures video frames to detect hand presence and gestures.
     - Finger positions and gestures are identified using MediaPipe and OpenCV.
