@@ -9,7 +9,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 
 ### In Depth Working 
 
-1. **Authorization:**
+1. **Authorization(OAUTH 2.0):**
 
     ![Procura Architecture](images/Authorization.png)
     - Users authorize social accounts, ensuring privacy by excluding credentials storage.
