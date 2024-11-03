@@ -5,7 +5,8 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 
 # Features Procura Provide
 ![Procura Architecture](images/Features.png)
-### Process
+
+### In Depth Working 
 
 1. **Authorization:**
 
