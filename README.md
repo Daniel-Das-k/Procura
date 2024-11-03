@@ -6,14 +6,13 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 
 1. **Authorization:**
 
-
     ![Procura Architecture](images/Authorization.png)
-    - Users are redirected to LinkedIn, Instagram, Facebook, and Twitter for authorization after initiating connections.
-    - Upon successful authentication, access tokens, refresh tokens, and token expiry information are obtained.
-    - All tokens and expiry details are securely stored in MongoDB.
+    - Users authorize social accounts, ensuring privacy by excluding credentials storage.
+    - Access tokens enable seamless actions without repeated user re-authorization.
+    - Tokens stored in MongoDB, maintaining access while protecting credentials.
+   - Automated management enables secure posting, prioritizing privacy.
 
 2. **Content Generation:**
-
 
      ![Procura Architecture](images/Content.png)
     - Agents use CrewAI technology, supported by Llama 3 and DuckDuckGo, to generate posts.
@@ -27,23 +26,44 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
     - When a YouTube video is uploaded and linked to Discord, it triggers the post creation.
     - The video is converted into a post specifically tailored for the Discord community.
 
-4. **Posting:**
+4. **Architecture(Content Posting and Summarization) :**
 
     ![Procura Architecture](images/Authorization.png)
-    - Access tokens are used to authenticate and post content to various platforms.
-    - The generated content is automatically shared using these tokens.
-    - Tokens ensure secure posting to platforms like Facebook, Instagram, Twitter, and LinkedIn.
+    - Users input files or links for content summarization by agents.
+    - OAuth 2.0 securely manages authorization, safeguarding user privacy and tokens.
+    - NLP processes text, enabling automated social media content generation.
+    - Users review generated content before posting across chosen social platforms.
 
-4. **Youtube translation and Q&A:**
+5. **Youtube translation and Q&A:**
 
     ![Procura Architecture](images/Translation.png)
-    - YouTube audio is processed using youtube-dlp and Whisper to generate transcripts for Q&A.
-    - Transcripts are transformed into embeddings and stored in a FAISS vector database for efficient retrieval.
-    - FAISS retrieves relevant transcript sections for questions, and a language model (Gemini) generates accurate answers.
+    - YouTube audio is extracted, formatted, and duration noted in seconds.
+    - Whisper transcribes audio to text, supporting various accents and languages
+    - Translated text is converted to audio using Google Text-to-Speech.
+   
+6. **Chat With PDF:**
+   ![Procura Architecture](images/ChatWPDF.png)
+    - User inputs a PDF and asks questions via text/audio.
+    - PDF data is stored as nodes and vectors for searches.
+    - Neo4j graph and vector searches retrieve context based on questions.
+    - Llama 3.1 generates responses from retrieved context for user display.
+
+7. **Question Generation and Answer Evaluation:**
+   ![Procura Architecture](images/PDFQ&A.png)
+    - User uploads a PDF, specifying required question quantity and types.
+    - PyPDF2 extracts PDF text, divided into chunks by LangChain splitter.
+    - Llama 3.1 generates questions from chunks using Retrieval-Augmented Generation.
+    - Retrieved questions display on the front end for user interaction.
+
+8. **Virtual Board:**
+   ![Procura Architecture](images/PDFQ&A.png)
+    - The camera captures video frames to detect hand presence and gestures.
+    - Finger positions and gestures are identified using MediaPipe and OpenCV.
+    - Captured frames are processed by Gemini LLM for mathematical solutions.
 
 ### Technologies Used
 
-![Procura Architecture](images/TechStack.png)
+![Procura Architecture](images/TechStacks.png)
 
 1. **Whisper** - For speech-to-text transcription of videos.
 2. **Gemini** - AI-powered question generation and content tailoring.
