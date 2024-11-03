@@ -71,7 +71,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
 
 ### Technologies Used
 
-![Procura Architecture](images/TechStacks.png)
+![Procura Architecture](images/TechStack.png)
 
 1. **Whisper** - For speech-to-text transcription of videos.
 2. **Gemini** - AI-powered question generation and content tailoring.
