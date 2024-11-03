@@ -2,7 +2,10 @@
 
 Procura is a comprehensive, AI-driven educational platform designed to enhance independent learning for students. The platform leverages cutting-edge technologies like Whisper for transcription, Gemini for AI-powered question generation, Mediapipe for real-time interactive sessions, and more. Procura empowers students to translate and interact with educational content, receive tailored feedback, and engage in virtual classrooms, all while ensuring a seamless, scalable, and secure experience.
 
-## Process
+
+# Features Procura Provide
+
+### Process
 
 1. **Authorization:**
 
@@ -56,7 +59,7 @@ Procura is a comprehensive, AI-driven educational platform designed to enhance i
     - Retrieved questions display on the front end for user interaction.
 
 8. **Virtual Board:**
-   ![Procura Architecture](images/PDFQ&A.png)
+   ![Procura Architecture](images/VirtualBoard.png)
     - The camera captures video frames to detect hand presence and gestures.
     - Finger positions and gestures are identified using MediaPipe and OpenCV.
     - Captured frames are processed by Gemini LLM for mathematical solutions.
