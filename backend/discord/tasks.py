@@ -4,6 +4,7 @@ from agents import (
     discord_content_compiler_formatter
 )
 
+# Task for Discord Content Creation Specialist
 content_creation_task_discord = Task(
     description=(
         "Generate and optimize a Discord post on {topic}. Create engaging, clear, and well-structured content with relevant keywords. "
@@ -15,7 +16,7 @@ content_creation_task_discord = Task(
     agent=discord_content_creation_specialist,
 )
 
-
+# Task for Discord Content Compiler and Formatter
 compile_and_format_task_discord = Task(
     description=(
         "Compile and format the final Discord post using content from previous tasks. Ensure it is well-structured, engaging, and optimized for readability. "

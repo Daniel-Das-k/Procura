@@ -33,3 +33,10 @@ def post_video(content_text, video_path):
         res = requests.post(url, data=payload, headers=headers, files=files)
     print("Posted video:", res.status_code)
 
+# Example usage:
+# post_text("Team Build Wheels won Hackmaggedon by presenting an innovative automation app. Summarize their achievement and the app's features. Ensure the summary is engaging and clear, highlighting the key aspects and impact of the app. Make sure the content resonates with the audience and maintains a compelling narrative.")
+# post_text("Generative ai is something we need to look for in the future")
+# post_image("This post is about my greatest Head Of Dept I would love to share this post Mr. Sekar", "image.png")
+# post_video("Team Build Wheels won Hackmaggedon by presenting an innovative automation app. Summarize their achievement and the app's features. Ensure the summary is engaging and clear, highlighting the key aspects and impact of the app. Make sure the content resonates with the audience and maintains a compelling narrative.", "bbaf4p.mpg")
+
+# post_image("Dhoni finishes off in style","image.png")

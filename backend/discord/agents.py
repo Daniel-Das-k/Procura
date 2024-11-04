@@ -13,6 +13,7 @@ llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash",
                              temperature=0.5,
                              google_api_key=os.getenv("GOOGLE_API_KEY"))
 
+# Define the first combined agent
 discord_content_creation_specialist = Agent(
     role='Discord Content Creation Specialist',
     goal="Generate, refine, and optimize Discord messages for clarity, engagement, and discoverability.",
@@ -24,6 +25,7 @@ discord_content_creation_specialist = Agent(
     allow_delegation=False,
 )
 
+# Define the second combined agent
 discord_content_compiler_formatter = Agent(
     role="Chief Discord Content Compiler and Formatter",
     goal="Aggregate, format, and optimize content for Discord posts, ensuring they are cohesive, and aligned with Discord's best practices.",
